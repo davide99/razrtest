@@ -1,0 +1,9 @@
+-injars build/raw.jar
+-outjars dist/MyMidlet.jar
+-libraryjars lib/cldcapi10-2.0.3.jar
+-libraryjars lib/midpapi20-2.0.3.jar
+-microedition
+-dontshrink
+-dontoptimize
+-dontobfuscate
+-keep public class * extends javax.microedition.midlet.MIDlet
